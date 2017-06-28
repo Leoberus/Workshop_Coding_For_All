@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView img_feed = (ImageView) findViewById(R.id.img_feed);
-        Bitmap imagenAndroid = BitmapFactory.decodeResource(getResources(),R.drawable.test);
+        Bitmap imagenAndroid = BitmapFactory.decodeResource(getResources(),R.drawable.user);
         img_feed.setImageBitmap(imagenAndroid);
 
         TextView caption = (TextView) findViewById(R.id.caption);
